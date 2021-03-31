@@ -1,7 +1,7 @@
 /**
- * SYST 17796 Project Base code.
- * Students can modify and extend to implement their game.
- * Add your name as an author and the date!
+ * SYST 17796 Project Deliverable 1
+ * Game: War
+ * Authors: Natalie Hynes & Matthew Szablowski
  */
 package ca.sheridancollege.project;
 

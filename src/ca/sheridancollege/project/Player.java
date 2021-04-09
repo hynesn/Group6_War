@@ -1,7 +1,7 @@
 /**
  *SYST 17796 Project Deliverable 1
  * Game: War
- * Authors: Natalie Hynes & Matthew Szablowski
+ * Authors: Natalie Hynes
  */
 package ca.sheridancollege.project;
 

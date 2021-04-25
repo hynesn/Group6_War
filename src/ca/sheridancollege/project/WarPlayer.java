@@ -9,17 +9,17 @@ import java.util.ArrayList;
  */
 public class WarPlayer extends Player{
     
-    private ArrayList<WarCard> playerCardList;
+    private GroupOfCards playerCardList;
 
-    public ArrayList<WarCard> getPlayerCardList() {
+    public GroupOfCards getPlayerCardList() {
         return playerCardList;
     }
 
-    public void setPlayerCardList(ArrayList<WarCard> playerCardList) {
+    public void setPlayerCardList(GroupOfCards playerCardList) {
         this.playerCardList = playerCardList;
     }
 
-    public WarPlayer(ArrayList<WarCard> playerCardList, String name) {
+    public WarPlayer(GroupOfCards playerCardList, String name) {
         super(name);
         this.playerCardList = playerCardList;
     }

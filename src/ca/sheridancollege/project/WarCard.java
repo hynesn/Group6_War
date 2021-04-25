@@ -14,7 +14,12 @@ import java.util.ArrayList;
  * @author dancye
  * @author Paul Bonenfant Jan 2020
  */
-public abstract class WarCard {
+public class WarCard extends Card {
+
+    @Override
+    public String toString() {
+        return "WarCard{" + "name=" + name + ", players=" + players + '}';
+    }
 
     private final String name;//the title of the game
     private ArrayList<Player> players;/**
